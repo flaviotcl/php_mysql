@@ -28,6 +28,10 @@
 <body>             
      <h1><?php echo $user['email']; ?></h1>
      <p>O id deste usuário é <?php echo $user['id']; ?></p>
+     <p>
+         <a href="/crud/remover.php?id=<?php echo $user['id'];?>">DELETE</a>
+         <a href="/crud/editar.php?id=<?php echo $user['id'];?>">EDIT</a>
+     </p>
      <p><a href="/crud">voltar</a></p>
 </body>
 </html>
