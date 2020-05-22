@@ -38,5 +38,7 @@
             </tr>
         </tbody>
     </table>
+
+    <p><a href="/crud/adicionar.php">+ ADD</a>
 </body>
 </html>
